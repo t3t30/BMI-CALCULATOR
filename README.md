@@ -1,11 +1,11 @@
-# Calculadora IMC
-Aplicativo Android (kotlin) para calculo de Indice de Massa Corporea (IMC)
+# BMI CALCULATOR
+Android App (kotlin) to calculate your body ass index
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 
-<img src="https://github.com/user-attachments/assets/c430f5db-1fe0-49b5-b01b-ee9fac2cbccb" width=260/>
-<img src="https://github.com/user-attachments/assets/ad00691a-50dc-45c0-9b0c-ea946cfe32b2" width=260/>
+<img src="https://github.com/user-attachments/assets/c1dca7a8-2e39-4bbe-822d-2fb65d137e39" width=260/>
+<img src="https://github.com/user-attachments/assets/678e96ed-e82c-4252-b6e7-238afe1e5ff6" width=260/>
 
 ## Tecnologias
 
