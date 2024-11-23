@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 // mostrar msg para usuario
                 Snackbar
                     .make(
-                        edtpeso, "Preencha todos os campos",
+                        edtpeso, "Fill in all fields",
                     Snackbar.LENGTH_LONG
 
                     )
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 val peso: Float = pesostr.toFloat()
                 val altura: Float = alturastr .toFloat()
-                val resultado = peso / (altura * altura)
+                val resultado = 703 * peso / (altura * altura)
                 // passar para prox tela
                 // criar layout da prox tela
                 // passar dados (resultado) para prox tela

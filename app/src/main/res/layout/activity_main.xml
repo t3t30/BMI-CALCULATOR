@@ -25,26 +25,28 @@
             android:layout_margin="24dp"
             android:src="@drawable/ic_weight_gris"
             android:tint="@color/white"/>
+
         <TextView
-            android:text="Calculador IMC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="12dp"
             android:layout_marginBottom="12dp"
+            android:text="BMI Calculator"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="34sp"/>
-        <TextView
-            android:text=" Preecha todos os campos para calcular seu IMC"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="24dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:text=" Fill in all fields to calculate your BMI"
+            android:textColor="@color/white"
             android:textSize="15sp"
-            android:textColor="@color/white"/>
+            android:textStyle="bold" />
 
 
     </LinearLayout>
@@ -65,7 +67,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_bg"
             android:drawableEnd="@drawable/ic_weight_gris"
-            android:hint="Digite seu peso ex: 70.200"
+            android:hint="Enter your weight ex: 176.37 lb"
             android:inputType="numberDecimal"
             android:maxLength="7" />
 
@@ -85,12 +87,10 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_bg"
                 android:drawableEnd="@drawable/ic_height_gris"
-                android:hint="Digite sua altura ex 1.72"
+                android:hint="Enter your height ex 72 in"
                 android:inputType="numberDecimal"
                 android:maxLength="4" />
         </com.google.android.material.textfield.TextInputLayout>
-
-
 
 
     <Button
@@ -100,7 +100,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Calcular"
+        android:text="Calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

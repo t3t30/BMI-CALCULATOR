@@ -24,11 +24,12 @@ class ResultActivity : AppCompatActivity() {
         tvresult.text = result.toString()
 
         var classificacao: String?=null
-        if(result < 18.5 ){ classificacao = "ABAIXO DO PESO"}
-        else if (result >= 18.5 && result < 25.0) { classificacao = "NORMAL"}
-        else if (result >= 25.0 && result < 35.0) { classificacao = "OBESIDADE CLASSE I"}
-        else if (result >= 35.0 && result < 40.0) { classificacao = "OBESIDADE CLASSE II"}
-        else { classificacao = "OBESIDADE CLASSE III"}
+        if(result < 18.5 ){ classificacao = "UNDERWEIGHT"}
+        else if (result >= 18.5 && result < 25.0) { classificacao = "HEALTHY WEIGHT"}
+        else if (result >=25.0 && result < 30.0 ) { classificacao = "OVERWEIGHT"}
+        else if (result >= 30.0 && result < 35.0) { classificacao = "OBESE CLASS I"}
+        else if (result >= 35.0 && result < 40.0) { classificacao = "OBESE CLASS II"}
+        else { classificacao = "OBESE CLASS III"}
 
               tvclassificacao.text = classificacao
 
