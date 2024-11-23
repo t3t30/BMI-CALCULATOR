@@ -1,5 +1,5 @@
 # BMI CALCULATOR
-Android App (kotlin) to calculate your body ass index
+Android App (kotlin) to calculate your body mass index in lb and in
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
