@@ -8,7 +8,10 @@ Android App (kotlin) to calculate your body mass index in "lb" and "in"
 <img src="https://github.com/user-attachments/assets/678e96ed-e82c-4252-b6e7-238afe1e5ff6" width=260/>
 
 ## Tecnologias
-
+- snackbar
+- textview
+- textimputedittext
+-
 
 
 ## License
