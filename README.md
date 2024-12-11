@@ -12,6 +12,7 @@ Android App (kotlin) to calculate your body mass index in "lb" and "in"
 - textview
 - textimputedittext
 - Logica do calculo de imc
+- user interface
 
 
 ## License
